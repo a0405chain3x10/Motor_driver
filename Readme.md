@@ -2,6 +2,12 @@
 
 This repository contains the KiCad schematics and PCB layout files for a custom DC motor driver. Designed around a discrete MOSFET H-Bridge topology, the board incorporates dedicated gate drivers and a hardware-level logic safety interlock to prevent catastrophic shoot-through conditions.
 
+<img width="833" height="594" alt="image" src="https://github.com/user-attachments/assets/27bd93b0-160d-41d6-b9ff-2f08d3542f7e" />
+
+<img width="1105" height="863" alt="image" src="https://github.com/user-attachments/assets/c5b77902-c5ec-4276-a3d4-952a0f70b32a" />
+
+<img width="1105" height="863" alt="image" src="https://github.com/user-attachments/assets/07342903-1e76-4050-a18f-4a6320075bc8" />
+
 ## Hardware Architecture
 The motor driver is built to handle high-current DC loads using a robust discrete component approach:
 *   **Power Delivery:** The main power stage accepts a 12V input via a dedicated screw terminal (J1), supported by a 220uF/25V electrolytic bulk capacitor (C7) to handle transient loads.
